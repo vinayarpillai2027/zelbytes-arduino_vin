@@ -13,15 +13,12 @@ The purpose of this repository is to maintain a structured record of:
 * Firmware development practices
 * Git and version control workflows
 
----
-
 ## Repository Structure
 
 ```text
 zelbytes-arduino-nimisha/
 │
 ├── README.md
-├── LICENSE
 ├── .gitignore
 │
 ├── docs/
@@ -30,7 +27,8 @@ zelbytes-arduino-nimisha/
 │
 ├── wiring-images/
 │   ├── day-03.jpg
-│   └── day-05.jpg
+│   ├── day-05.jpg
+│   └── day-06.jpg
 │
 ├── shared/
 │   └── config.h
@@ -40,22 +38,20 @@ zelbytes-arduino-nimisha/
     ├── day-02-git/
     ├── day-03-debounce/
     ├── day-04-serial-debug/
-    └── day-05-relay-solenoid/
+    ├── day-05-relay-solenoid/
+    └── day-06-manual-irrigation/
 ```
-
----
 
 ## Daily Tasks
 
-| Day   | Topic                                        | Status      |
-| ----- | -------------------------------------------- | ----------- |
-| Day 1 | Arduino Basics: Blink LED and Serial Monitor | ✅ Completed |
-| Day 2 | Git and Repository Setup                     | ✅ Completed |
-| Day 3 | Digital I/O: LEDs, Buttons and Debouncing    | ✅ Completed |
-| Day 4 | Serial Monitor and Debugging Techniques      | ✅ Completed |
-| Day 5 | Relay Controlled Solenoid Valve              | ✅ Completed |
-
----
+| Day   | Topic                                         | Status      |
+| ----- | --------------------------------------------- | ----------- |
+| Day 1 | Arduino Basics: Blink LED and Serial Monitor  | ✅ Completed |
+| Day 2 | Git and Repository Setup                      | ✅ Completed |
+| Day 3 | Digital I/O: LEDs, Buttons and Debouncing     | ✅ Completed |
+| Day 4 | Serial Monitor and Debugging Techniques       | ✅ Completed |
+| Day 5 | Relay Controlled Solenoid Valve               | ✅ Completed |
+| Day 6 | Phase 1 Integration: Manual Irrigation Toggle | ✅ Completed |
 
 ## Hardware Used
 
@@ -69,8 +65,6 @@ zelbytes-arduino-nimisha/
 * Jumper Wires
 * USB Cable
 * External Power Supply
-
----
 
 ## Skills Developed
 
@@ -89,6 +83,8 @@ zelbytes-arduino-nimisha/
 * Memory optimization using `F()`
 * Command-based interfaces
 * Safety-focused embedded design
+* Event logging and diagnostics
+* Modular firmware architecture
 
 ### Version Control
 
@@ -97,8 +93,6 @@ zelbytes-arduino-nimisha/
 * Commit management
 * Repository organization
 * Documentation practices
-
----
 
 ## Learning Outcomes
 
@@ -111,4 +105,5 @@ Throughout this internship, I gained practical experience in:
 * Version control using Git and GitHub
 * Documentation and project organization
 * Real-world IoT development workflows
-
+* System integration and testing
+* Safe automation control design
