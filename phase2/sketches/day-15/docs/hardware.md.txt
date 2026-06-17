@@ -1,0 +1,81 @@
+## Hardware Details and Functions
+
+### 1. Arduino Uno
+
+**Function:**
+
+* Acts as the main controller of the system.
+* Reads data from all sensors.
+* Processes the sensor values.
+* Sends the readings to the computer through Serial communication in CSV format.
+
+**Features:**
+
+* ATmega328P microcontroller.
+* 14 digital I/O pins and 6 analog input pins.
+* Operates at 5 V.
+* Clock speed of 16 MHz.
+
+
+### 2. DHT22 Sensor
+
+**Function**
+
+The DHT22 sensor measures the temperature and humidity of the surrounding environment and provides the readings digitally to the Arduino. In this project, it supplies the temperature and humidity columns of the CSV data log.
+
+**Features**
+Temperature range: -40°C to 80°C
+Humidity range: 0–100% RH
+Higher accuracy than DHT11
+Single-wire digital communication
+Operating voltage: 3.3–6 V
+Sampling rate: 0.5 Hz (one reading every 2 seconds)
+
+
+### 3. Soil Moisture Sensor
+
+**Function:**
+
+* Detects the moisture content present in the soil.
+* Produces an analog output proportional to soil moisture.
+* Supplies the soil moisture column in the CSV log.
+
+**Features:**
+
+* Analog and digital outputs available.
+* Operates at 3.3–5 V.
+* Easy interface with Arduino.
+* Suitable for irrigation and plant monitoring applications.
+
+
+
+### 4. LDR (Light Dependent Resistor)
+
+**Function:**
+
+* Measures the intensity of surrounding light.
+* Resistance changes according to the amount of light falling on it.
+* Provides the light intensity column in the CSV log.
+
+**Features:**
+
+* Low cost and simple to use.
+* Analog output using a voltage divider.
+* High sensitivity to light variations.
+* Operates with 5 V circuits.
+
+
+
+### 5. 10 kΩ Resistor
+
+**Function:**
+
+* Forms a voltage divider with the LDR.
+* Converts the resistance variation of the LDR into a measurable voltage.
+* Ensures stable analog readings.
+
+**Features:**
+
+* Resistance value: 10 kΩ.
+* Carbon film resistor.
+* Used for voltage division and current limiting.
