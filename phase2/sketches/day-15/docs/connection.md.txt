@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Hardware Details and Functions
 
 ### 1. Arduino Uno
@@ -79,3 +80,24 @@ Sampling rate: 0.5 Hz (one reading every 2 seconds)
 * Resistance value: 10 kΩ.
 * Carbon film resistor.
 * Used for voltage division and current limiting.
+=======
+| DHT22 Pin | Arduino Uno Pin |
+| --------- | --------------- |
+| VCC       | 5V              |
+| DATA      | D4              |
+| GND       | GND             |
+
+
+| Soil Sensor Pin | Arduino Uno Pin |
+| --------------- | --------------- |
+| VCC             | 5V              |
+| GND             | GND             |
+| AO              | A0              |
+
+
+| Component Connection               | Arduino Uno Pin |
+| ---------------------------------- | --------------- |
+| One leg of LDR                     | 5V              |
+| Junction of LDR and 10 kΩ resistor | A1              |
+| Other end of 10 kΩ resistor        | GND             |
+>>>>>>> ace8c72 (add files)
