@@ -1,0 +1,44 @@
+# IoT Lab Field Mapping
+
+This project uses an Arduino Uno to generate telemetry data in CSV format. A host Python script reads the serial data, converts the CSV values into JSON format, and uploads the data to the Zelbytes IoT Learning Lab.
+
+## Serial CSV Format
+
+```text
+temperature_c,humidity_pct,soil_moisture_pct
+```
+
+Example:
+
+```text
+27.8,61.6,43.5
+```
+
+## JSON Mapping
+
+| CSV Column | JSON Field        |
+| ---------- | ----------------- |
+| Column 1   | temperature_c     |
+| Column 2   | humidity_pct      |
+| Column 3   | soil_moisture_pct |
+
+Example JSON payload:
+
+```json
+{
+  "device_id": "UNO-001",
+  "temperature_c": 27.8,
+  "humidity_pct": 61.6,
+  "soil_moisture_pct": 43.5
+}
+```
+
+## Endpoint
+
+```text
+/api/iot-lab/v1/telemetry
+```
+
+## Device ID
+
+`UNO-001`
