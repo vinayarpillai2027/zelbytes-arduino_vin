@@ -7,7 +7,7 @@
 ![Arduino](https://img.shields.io/badge/Arduino-Uno_R3-00979D?logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-Firmware-00599C?logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-pyserial_%2B_requests-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-in_done-green)
+![Status](https://img.shields.io/badge/status-_done-green)
 
 </div>
 
