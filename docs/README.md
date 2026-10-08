@@ -7,7 +7,7 @@
 ![Arduino](https://img.shields.io/badge/Arduino-Uno_R3-00979D?logo=arduino&logoColor=white)
 ![C++](https://img.shields.io/badge/C%2B%2B-Firmware-00599C?logo=cplusplus&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-pyserial_%2B_requests-3776AB?logo=python&logoColor=white)
-![Status](https://img.shields.io/badge/status-in_progress-yellow)
+![Status](https://img.shields.io/badge/status-in_done-green)
 
 </div>
 
@@ -31,7 +31,7 @@ This repository documents a hands-on Arduino & IoT internship (Zelbytes), built 
 |---|---|---|---|
 | **Phase 1** | Arduino foundations & safe actuation | Days 1–6 | ✅ Done |
 | **Phase 2** | Sensors, automation & cloud telemetry | Days 7–15, Tasks 8–9 | ✅ Done |
-| **Phase 3** | Advanced integration | Task 10 | 🚧 In progress |
+| **Phase 3** | Advanced integration | Task 10 | ✅ Done |
 
 ## 🧩 What's Built
 
